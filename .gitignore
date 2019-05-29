@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+*.pyc
+__pycache__
+routes.txt
+settings.txt
+
+pid

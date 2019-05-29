@@ -1,0 +1,3 @@
+-gmail https://gmail.com/ E-Mail services
+google https://google.com/ Search engine
+yahoo https://yahoo.com/ Yahoo portal

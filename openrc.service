@@ -1,0 +1,13 @@
+#!/sbin/openrc-run
+
+name="go.py"
+command="/usr/bin/env"
+pidfile="/var/run/$SVCNAME.pid"
+command_args="python3 /var/www/gopy/go.py --detach --pid=$pidfile --port=8005 --syslog=$SVNAME"
+command_background=true
+
+depend() {
+	need net localmount
+	after firewall
+}
+
