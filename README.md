@@ -1,0 +1,2 @@
+# gopy
+route redirector
